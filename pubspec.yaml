@@ -1,0 +1,35 @@
+name: ink_finder
+description: "A premium tattoo studio finder for Vietnam market."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  cached_network_image: ^3.3.1
+  provider: ^6.1.2
+  supabase_flutter: ^2.5.0
+  url_launcher: ^6.2.6
+  qr_flutter: ^4.1.0
+  font_awesome_flutter: ^10.7.0
+  flutter_svg: ^2.0.10
+  animate_do: ^3.3.4  # For slick animations
+  shadcn_ui: ^0.46.0
+  flex_color_scheme: ^8.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
