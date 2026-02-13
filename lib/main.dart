@@ -9,14 +9,16 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:ink_finder/features/auth/presentation/pages/login_page.dart';
 import 'package:ink_finder/screens/customer_profile_screen.dart';
 
+import 'package:ink_finder/core/config.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize Supabase (Replace with your own project credentials)
-  // await Supabase.initialize(
-  //   url: 'YOUR_SUPABASE_URL',
-  //   anonKey: 'YOUR_SUPABASE_ANON_KEY',
-  // );
+  // Initialize Supabase
+  await Supabase.initialize(
+    url: AppConfig.supabaseUrl,
+    anonKey: AppConfig.supabaseAnonKey,
+  );
 
   runApp(const InkFinderApp());
 }

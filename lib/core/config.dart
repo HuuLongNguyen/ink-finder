@@ -1,6 +1,6 @@
 class AppConfig {
-  static const String supabaseUrl = 'YOUR_SUPABASE_URL';
-  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+  static const String supabaseUrl = 'https://kuvyecebqdhjungamxfu.supabase.co';
+  static const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt1dnllY2VicWRoanVuZ2FteGZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA5NjQxNDcsImV4cCI6MjA4NjU0MDE0N30.J03h7GijMBCA7aIknDqI2BICg8gTK5S0r8GIRuxxpBY';
   
   // Goong Maps (Vietnamese Map Provider)
   // Get your key at https://account.goong.io/
